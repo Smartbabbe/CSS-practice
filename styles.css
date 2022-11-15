@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+
+}   
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60vh;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+div h1 {
+    font-size: 18px;
+}
+
+.first {
+    color: green;
+}
+
+div p{
+    font-size: 14px;
+}
+
+.second {
+    color: red;
+}
+
+.third {
+    color: blue;
+}
+
+.first, .second, .third {
+    border: 2px solid black;
+    border-radius: 3%;
+}
