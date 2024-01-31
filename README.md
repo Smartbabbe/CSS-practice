@@ -1,3 +1,6 @@
-# CSS_assignment2_stutern
+# CSS practice
 
-Link to deployed page - https://smartbabbe.github.io/CSS_assignment2_stutern/
+This is a basic css practice project showing
+the use of borders, colors, etc
+
+Link to deployed page - https://smartbabbe.github.io/CSS-practice/
