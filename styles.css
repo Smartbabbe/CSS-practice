@@ -1,29 +1,17 @@
-body {
+*, *::before, *::after {
     background-color: white;
-    width: 50%;
-    margin: auto;
-
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
 }   
 
 .parent {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 60vh;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-div h1 {
-    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .first {
     color: green;
-}
-
-div p{
-    font-size: 14px;
 }
 
 .second {
@@ -35,6 +23,14 @@ div p{
 }
 
 .first, .second, .third {
-    border: 2px solid black;
-    border-radius: 3%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .parent {
+        width: 80%;
+    }    
 }
